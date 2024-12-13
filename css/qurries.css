@@ -84,6 +84,7 @@
       justify-content: center !important;
       margin-top: 20px;
     }
+.footer-container .row{align-items: center !important;}
     /* .item-card h3 {left: 60px !important;position: absolute !important;top: -14px !important;} */
     /* .item-card img {padding-top: 80px !important;} */
 
@@ -137,7 +138,7 @@
   }
   
   @media (max-width: 475px) {
-.hero-section{min-height: 100vh !important;}
+/* .hero-section{min-height: 100vh !important;} */
 .toggle-btn{width: 26px !important;}
     .hero-title {
       font-size: 2rem !important;
@@ -187,6 +188,7 @@
     position: relative !important;
     top:-7.4rem !important;
 }
+.super-section{min-height: 620vh !important;}
   }
   
 
@@ -259,14 +261,17 @@
       align-items: center;
       text-align: center;
     }
+   .reward-container .row{align-items: center !important;}
+   .reward-container .action-img{width: 80% !important;}
   
     .your-action {
       margin-bottom: 20px;
     }
-    .step-card {align-items: center !important;
+    .step-card {align-items: center !important;width: 100% !important;
     }
+    .super-section{min-height: 80vh !important;}
     .row{row-gap: 4rem !important;}
-    body > section.container-fluid.how-it-works-section > div.container.work-container > div.row.steps-row{row-gap: 0px !important;}
+    body > section.container-fluid.how-it-works-section > div.container.work-container > div.row.steps-row{row-gap: 0px !important;align-items: center !important;}
 
   
     .item-card-wrapper{width: 60% !important;}
@@ -276,6 +281,7 @@
   
     .blog-post {
       margin-bottom: 20px;
+      width: 100% !important;
     }
   
     .blog-title {
@@ -356,6 +362,7 @@
         border-radius: 11px !important;
         /* left: 12px; */
     }
+    .super-section{min-height: 70vh !important;}
 
     }
 
