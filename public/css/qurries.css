@@ -30,6 +30,17 @@
   }
 
 
+  @media (min-width: 650px) { 
+    .containerMobile {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 650px) { 
+    .containerDesktop {
+      display: none;
+    }
+  }
 
 
   @media (max-width: 992px) {

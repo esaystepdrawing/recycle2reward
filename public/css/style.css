@@ -27,21 +27,6 @@ html {
 .container-fluid {
   position: relative;
 }
-@font-face {
-  font-family: "h";
-  src: url(font/Roboto-Black.ttf);
-  font-size: clamp(2.2rem, 8vw, 6rem);
-}
-@font-face {
-  font-family: "p";
-  src: url(font/Roboto-Regular.ttf);
-  font-size: clamp(1.5rem, 6vw, 1.9);
-}
-@font-face {
-  font-family: "light";
-  src: url(font/Roboto-Light.ttf);
-  font-size: clamp(1.4rem, 4.5vw, 1.6rem);
-}
 
 /* Navbar */
 .nav-container {
@@ -377,9 +362,8 @@ border-radius: 10px; /* Optional: Rounded corners for a sleek look */
 .hero-subtitle {
   font-size: clamp(1.4rem, 3vw, 2rem);
   color: var(--second-color);
-  font-family: "p";
   text-align: left;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 2.8rem;
   max-width: 370px;
 }
@@ -429,37 +413,10 @@ body > section.your-reward > div > div > div.col-md-6.reward-content > a:hover{b
   animation: float3 5s infinite;
 }
 
-/* Floating Animations */
-@keyframes float1 {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-15px);
-  }
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }
-
-@keyframes float2 {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-20px);
-  }
-}
-
-@keyframes float3 {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-}
-
 /* Fade Animations */
 .fade-in-animation {
   opacity: 0;
@@ -692,25 +649,25 @@ a.btn.start-btn {
   line-height: 3rem ;
 }
 
-.items-accepted-A,
+/* .items-accepted-A,
 .items-accepted-B {
   display: flex;
   gap: 10px;
   align-items: center;
   justify-content: center;
-}
-.item-card-wrapper {
+} */
+/* .item-card-wrapper {
   background: linear-gradient(
     45deg,
     #1ebf6f,
     #38c77e,
     #5ed69c,
     #7bc94e
-  ); /* Gradient border */
+  ); 
   border-radius: 20px; /* Round the outer container */
-  padding: 4px; /* Thickness of the border */
-  display: inline-block; /* Shrinks to the size of .item-card */
-}
+  /* padding: 4px; Thickness of the border */
+  /* display: inline-block; Shrinks to the size of .item-card */
+/* } */ 
 
 .item-card {
   background-color: honeydew;
@@ -1315,12 +1272,12 @@ body > section.container-fluid.how-it-works-section > div.container.work-contain
   font-size: clamp(1rem, 4vw, 1.4rem);
 }
 
-.accept-container{display: flex !important;justify-content: center !important;align-items: center !important;}
+/* .accept-container{display: flex !important;justify-content: center !important;align-items: center !important;}
 .item-card{background-color: honeydew;border-radius: 132px 132px 15px 16px;position: relative;;
   -webkit-border-radius: 132px 132px 15px 16px;
   -moz-border-radius: 132px 132px 15px 16px;
   border: 7px solid var(--accent);width: 100% !important;}
-.item-card img{width: 100% !important;object-fit: cover !important;}
+.item-card img{width: 100% !important;object-fit: cover !important;} */
 
 
 
