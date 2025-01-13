@@ -20,25 +20,60 @@
         /* 48px - 64px */
         gap: clamp(3rem, 6vw, 4rem);
     }
-    #logos-572 .cs-logo {
-        width: auto;
-        max-width: 90%;
-        height: auto;
-        margin: 0;
-        display: block;
+    #logos-572 .cs-text {
+        max-width: 75.875rem;
+      }
+
+    #logos-572 .cs-text {
+    margin: 0 0 2rem 0;
+    color: var(--bodyTextColorWhite);
+    opacity: 0.8;
+    max-width: 75.875rem;
+    }
+    #logos-572 .cs-button-solid {
+    font-size: 1rem;
+    font-weight: 700;
+    /* 46px - 56px */
+    line-height: clamp(2.875rem, 5.5vw, 3.5rem);
+    text-align: center;
+    text-decoration: none;
+    min-width: 9.375rem;
+    margin: 0;
+    margin-top: 2rem;
+    /* prevents padding from adding to the width */
+    box-sizing: border-box;
+    padding: 0 1.5rem;
+    color: #fff;
+    background-color: var(--primary);
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    }
+    #logos-572 .cs-button-solid:before {
+    content: "";
+    width: 0%;
+    height: 100%;
+    background: #000;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: width 0.3s;
+    }
+    #logos-572 .cs-button-solid:hover:before {
+    width: 100%;
+    }
+    #logos-572 .cs-button-solid {
+    margin: 0;
+    display: inline-block;
+    order: 2;
     }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
     #logos-572 .cs-container {
         justify-content: space-between;
-    }
-    #logos-572 .cs-logo {
-        width: 20%;
-        /* the max width becomes whatever the actual width of the image is */
-        max-width: max-content;
-        height: auto;
-        display: block;
     }
 }
 

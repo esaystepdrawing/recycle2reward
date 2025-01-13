@@ -16,7 +16,7 @@ function Hero() {
             </h2>
             <div className="cs-flex">
                 <p className="cs-text">Join us in turning your everyday actions into meaningful rewards while making a positive impact on the environment.</p>
-                <a href="#getstartedwithrecycle2reward" className="cs-button-solid">Read More</a>
+                <a href="#steps-284" className="cs-button-solid">Read More</a>
             </div>
         </div>
         <picture className="cs-picture">

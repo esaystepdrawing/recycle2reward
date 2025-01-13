@@ -62,6 +62,7 @@ const Login = () => {
                 <h2 className="cs-title">Subscribe Your Email for Newsletter & Promotion</h2>
                 <p className="cs-text">
                 Subscribe to our newsletter and be the first to know about:
+                </p>
                 <ul>
                     <li>
                         Exclusive Promotions: Special discounts and deals tailored just for you.
@@ -73,6 +74,7 @@ const Login = () => {
                         Expert Insights: Helpful tips, articles, and resources straight to your inbox.
                     </li>
                 </ul>
+                <p className="cs-text">
                 Join our community today and enjoy a special welcome gift!
                 Signing up is quick and easy—just enter your email below:
                 </p>
