@@ -22,10 +22,9 @@ function Faq() {
                 </div>
                 <div className="cs-content">
                     <span className="cs-topper">About Recycle2Reward</span>
-                    <h2 className="cs-title">We're Passionate About Early Education</h2>
+                    <h2 className="cs-title">We're Passionate About Mother Earth and Education</h2>
                     <p className="cs-text">
-                        Stitch day care is a place where you can keep your baby with peace in your mind when you are working in your office for the better future of your child. We promise to take care of your child’s social, emotional, intellectual and physical needs with sensitive care and we also ensure you their security with our life.
-                    </p>
+                        At Recycle2Reward, We are deeply committed to protecting and preserving our planet. Our passion for Mother Earth drives everything we do, from promoting sustainable practices to raising awareness about environmental conservation. We believe in creating a greener, healthier future for all and work tirelessly to inspire positive change in our communities. Together, we can make a lasting impact and ensure that our planet thrives for generations to come.                    </p>
                     <ul className="cs-ul">
                         <li className="cs-li">
                             <picture className="cs-li-picture">
@@ -34,7 +33,7 @@ function Faq() {
                             <div className="cs-flex">
                                 <h3 className="cs-h3">Our Mission</h3>
                                 <p className="cs-li-text">
-                                    It's no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                                is to nurture and protect Mother Earth by advocating for sustainable living, fostering environmental awareness, and implementing eco-friendly practices. We strive to inspire individuals and communities to take action towards a healthier planet, promoting harmony between humanity and nature. Through education, innovation, and collaboration, we are dedicated to creating a sustainable future for all.
                                 </p>
                             </div>
                         </li>
@@ -45,12 +44,12 @@ function Faq() {
                             <div className="cs-flex">
                                 <h3 className="cs-h3">Our Vision</h3>
                                 <p className="cs-li-text">
-                                    It's no secret that one person alone cannot overcome the greatest humanitarian crises. It truly takes all of us.
+                                  a world where humanity lives in harmony with nature, fostering a sustainable and thriving planet for future generations.
                                 </p>
                             </div>
                         </li>
                     </ul>                 
-                    <a href="" className="cs-button-solid">Learn More</a>
+                    <a href="#steps-284" className="cs-button-solid">Get Started</a>
                 </div>
             </div>
             <svg className="cs-top" width="1920" height="39" viewBox="0 0 1920 39" fill="none" xmlns="http://www.w3.org/2000/svg">

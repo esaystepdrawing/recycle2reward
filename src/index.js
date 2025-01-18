@@ -4,6 +4,7 @@ import App from './App';
 import Login from './login/index';
 import Signup from './signup/index';
 import RecycleGuest from './recycleguest/index';
+import RecycleReward from './recyclereward/index';
 import reportWebVitals from './reportWebVitals';
 import "typeface-roboto";
 import { BrowserRouter, Routes, Route } from "react-router";
@@ -19,6 +20,7 @@ root.render(
         <Route path="/login" element={<Login />} />
         <Route path="/sign-up" element={<Signup />} />
         <Route path="/recycleguest" element={<RecycleGuest />} />
+        <Route path="/recyclereward" element={<RecycleReward />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

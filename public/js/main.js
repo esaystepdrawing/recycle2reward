@@ -1,19 +1,21 @@
 document.addEventListener('DOMContentLoaded', function () {
 
-// add classes for mobile navigation toggling
-var CSbody = document.querySelector('body');
-const CSnavbarMenu = document.querySelector('#cs-navigation');
-const CShamburgerMenu = document.querySelector('#cs-navigation .cs-toggle');
+	// add classes for mobile navigation toggling
+	var CSbody = document.querySelector('body');
+	const CSnavbarMenu = document.querySelector('#cs-navigation');
+	console.log(CSnavbarMenu);
+	console.log("000000000000000000");
+	const CShamburgerMenu = document.querySelector('#cs-navigation .cs-toggle');
 
-if (CShamburgerMenu) {
-CShamburgerMenu.addEventListener('click', function () {
-	CShamburgerMenu.classList.toggle('cs-active');
-	CSnavbarMenu.classList.toggle('cs-active');
-	CSbody.classList.toggle('cs-open');
-	// run the function to check the aria-expanded value
-	ariaExpanded();
-});
-}
+	if (CShamburgerMenu) {
+	CShamburgerMenu.addEventListener('click', function () {
+		CShamburgerMenu.classList.toggle('cs-active');
+		CSnavbarMenu.classList.toggle('cs-active');
+		CSbody.classList.toggle('cs-open');
+		// run the function to check the aria-expanded value
+		ariaExpanded();
+	});
+	}
 
 // checks the value of aria expanded on the cs-ul and changes it accordingly whether it is expanded or not
 function ariaExpanded() {

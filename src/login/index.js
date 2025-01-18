@@ -17,22 +17,19 @@ const Login = () => {
         <div className="cs-container">
         {isDesktopResolution && 
             <div className="cs-content">
-                <span className="cs-topper">Contact Us</span>
-                <h2 className="cs-title">Get in Touch</h2>
-                <p className="cs-text">
-                    We are a team of passionate and creative individuals dedicated to crafting captivating designs that leave a lasting impression.
-                </p>
-                <ul className="cs-ul">
-                    <li className="cs-li">
-                        <picture className="cs-icon-wrapper">
-                            <img aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mail-76.svg" alt="address icon" className="cs-icon" width="40" height="40" decoding="async"></img>
+                <span className="cs-topper">Quick Schedule - Recycle2Reward</span>
+                <h2 className="cs-title">Quick Schedule to Recycle Items</h2>
+                <p className="cs-text">&nbsp;</p>
+                <a href="/recycleguest" className="cs-button-solid">Continue as Guest</a>
+                <p className="cs-text">&nbsp;</p>
+
+                <div className="cs-right-section">
+                        <picture className="cs-picture">
+                            <source media="(max-width: 600px)" srcSet={process.env.PUBLIC_URL + '/img/r2rsideprocess.png'}></source>
+                            <source media="(min-width: 601px)" srcSet={process.env.PUBLIC_URL + '/img/r2rsideprocess.png'}></source>
+                            <img className="cs-img" aria-hidden="true" loading="lazy" decoding="async" src={process.env.PUBLIC_URL + '/img/r2rsideprocess.png'} alt="Recycle 2 Reward Process" width="462" height="338"></img>
                         </picture>
-                        <div className="cs-flex-group">
-                            <span className="cs-header">Email</span>
-                            <a href="mailto:info@recycle2reward.com" className="cs-link">info@recycle2reward.com</a>
-                        </div>
-                    </li>
-                </ul>
+                </div>
                 <p className="cs-text">&nbsp;</p>
                 <a href="/sign-up" className="cs-button-solid">Sign-Up</a>
                 <p className="cs-text">

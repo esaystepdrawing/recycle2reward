@@ -10,7 +10,7 @@ function Reward() {
                 <p className="cs-text">
                     Your dedication and effort results in earning rewards. There are many rewards to select from. Choose the one that you like the most.
                 </p>
-                <a href="" className="cs-button-solid">Reward List</a>
+                <a href="/recyclereward" className="cs-button-solid">Reward List</a>
             </div>
             <div className="cs-card-group">
                 <li className="cs-item">
